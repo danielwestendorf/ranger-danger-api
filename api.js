@@ -11,8 +11,6 @@ var files = fs.readdirSync("./ranger").filter(function(path) {
   return path.charAt(0) !== ".";
 })
 
-console.log(files)
-
 app.get("/", function(req, res) {
   res.send({
     "/random": { src: "some_file.jpg" },
