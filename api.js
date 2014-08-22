@@ -11,6 +11,8 @@ var files = fs.readdirSync("./ranger").filter(function(path) {
   return path.charAt(0) !== ".";
 })
 
+app.set('port', process.env.PORT || 3333);
+
 app.get("/", function(req, res) {
   res.send({
     "/random": { src: "some_file.jpg" },
@@ -43,7 +45,7 @@ app.get("/src/:path", function(req, res) {
 });
 
 // Listen on port 3333
-app.listen(process.env.PORT || 3333);
+app.listen(app.get('port'));
 console.log("Starting Ranger Danger API on http://localhost:" + app.get('port'));
 
 // Don't bail out, but log out the error
