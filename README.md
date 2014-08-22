@@ -1,8 +1,8 @@
-# Cat API Boilerplate Boilerplate
+# Ranger Danger API Boilerplate Boilerplate
 
-Cat API Boilerplate Boilerplate is the fastest way to start developing a Cat
-API project. Leverage years of experience with a Cat API in seconds flat with
-Cat API Boilerplate.
+Ranger Danger API Boilerplate Boilerplate is the fastest way to start developing a Ranger Danger
+API project. Leverage years of experience with a Ranger Danger API in seconds flat with
+Ranger Danger API Boilerplate.
 
 ## How to Contribute
 
@@ -30,8 +30,8 @@ node api
 
 Once the API server is running, you can access the REST API:
 
-* `/all` Will return all Cat images
+* `/all` Will return all Ranger Danger images
 
-* `/random` Will return a random Cat image
+* `/random` Will return a random Ranger Danger image
 
 * `/img/:src` Will return the actual image so you can embed in an `<img/>` tag.

@@ -1,5 +1,5 @@
 {
-  "author": "Tim Branyen <tim@tabdeveloper.com> (@tbranyen)",
+  "author": "Daniel Westendorf, borrowed from Tim Branyen <tim@tabdeveloper.com> (@tbranyen)",
   "name": "cat-api-boilerplate",
   "description": "A starting point for creating your very own cat API.",
   "version": "0.0.0",
@@ -8,9 +8,7 @@
     "url": "git://github.com/tbranyen/cat-api-boilerplate.git"
   },
   "dependencies": {
-    "express": "~3.0.0",
-    "canvas": "~0.13.1",
-    "kittydar": "~0.1.1"
+    "express": "~3.0.0"
   },
   "devDependencies": {},
   "optionalDependencies": {},
