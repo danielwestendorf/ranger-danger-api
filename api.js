@@ -45,8 +45,8 @@ app.get("/src/:path", function(req, res) {
 });
 
 // Listen on port 3333
-app.listen(3333);
-console.log("Starting Ranger Danger API on http://localhost:3333");
+app.listen(process.env.PORT || 3333);
+console.log("Starting Ranger Danger API on http://localhost:" + app.get('port'));
 
 // Don't bail out, but log out the error
 process.on("uncaughtException", function(err) {
